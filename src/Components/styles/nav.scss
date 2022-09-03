@@ -1,0 +1,46 @@
+nav {
+
+    .container {
+        padding-top: 1rem;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            li {
+                color: #fff;
+                list-style: none;
+                padding: 0 1rem;
+
+                a {
+                    color: #fff !important;
+                    font-size: 1rem;
+                    text-decoration: none;
+
+                    span.b-divider {
+                        color: hsla(0, 0, 100%, .2);
+                        cursor: text;
+                        padding-left: 1rem;
+                    }
+                }
+
+                a.hover-un:hover {
+                    border-bottom: .000001px solid #3671E9;
+                }
+            }
+
+            .nav-register {
+                background: #3671E9;
+                border-radius: 2rem;
+
+                li {
+
+                    a {
+                        padding: .2rem;
+                    }
+                }
+            }
+        }
+    }
+}
