@@ -9,7 +9,7 @@ const Main = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 text">
-                            <div>
+                            <div className="main-save">
                                 <p><span>70% SAVE </span>
                                     for the best black friday deals</p>
                             </div>
@@ -17,8 +17,11 @@ const Main = () => {
                                 Fastest & Secure Platform To Invest In Cypto
                             </h1>
                             <p>buy and sell cyptocurrencies by trusted 10M wallets, in over 100m transactions</p>
-                            <div>TRY FOR FREE
-                                <span><img src={require("./images/Arrow Right.jpg")} alt="arrow" /></span>
+                            <div className="try-free">
+                                <button>
+                                    TRY FOR FREE
+                                    <span><img src={require("./images/Arrow Right.jpg")} alt="arrow" /></span>
+                                </button>
                             </div>
                         </div>
                         <div className="col-lg-6 image">

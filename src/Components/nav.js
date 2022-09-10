@@ -3,6 +3,7 @@ import LogoIcon from './images/logo.svg';
 import './styles/main.scss';
 import './styles/nav.scss';
 
+
 function Nav() {
     return (
         <div>
@@ -11,8 +12,8 @@ function Nav() {
                     <a className="navbar-brand" href="#home">
                         <img src={LogoIcon} alt="Crappo logo" />
                     </a>
-                    <button className="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon bg-white border border-0"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">
@@ -28,15 +29,17 @@ function Nav() {
                             <li className="nav-item">
                                 <a className="nav-link hover-un" href="#home">Contact</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#home">Login
-                                <span className="b-divider"> |</span>
-                                </a>
-                            </li>
-                            <div className="nav-register">
+                            <div className="d-flex align-content-center justify-content-center">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#home">Register</a>
+                                    <a className="nav-link" href="#home">Login
+                                        <span className="b-divider"> |</span>
+                                    </a>
                                 </li>
+                                <div className="nav-register">
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#home">Register</a>
+                                    </li>
+                                </div>
                             </div>
                         </ul>
                     </div>
