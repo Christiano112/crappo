@@ -1,44 +1,46 @@
 import React from 'react';
 import LogoIcon from "./images/logo.svg";
+import './styles/main.scss';
+import './styles/footer.scss';
 
 function Footer() {
     return (
         <div>
             <footer className="container">
-                <div className="row">
-                    <div>
+                <div className="row footer-content">
+                    <div className="col-lg-3">
                         <img src={LogoIcon} alt="Crappo logo" />
+                    </div>
+                    <div className="col-lg-3 px-0 mx-0 gx-0">
+                        <h5>Quick Links</h5>
+                        <a href="#home">Home</a>
+                        <a href="#home">Products</a>
+                        <a href="#home">About</a>
+                        <a href="#home">Features</a>
+                        <a href="#home">Contact</a>
+                    </div>
+                    <div className="col-lg-3 px-0 mx-0 gx-0">
+                        <h5>Resources Links</h5>
+                        <a href="#home">Download Whitepapper</a>
+                        <a href="#home">Smart Token</a>
+                        <a href="#home">Blockchain Explore</a>
+                        <a href="#home">Crypto API</a>
+                        <a href="#home">Interest</a>
+                    </div>
+                    <div className="col-lg-3 px-0 mx-0 gx-0">
+                        <p>We accept following payment systems</p>
                         <div>
-                            <h4>Quick Links</h4>
-                            <a href="#home">Home</a>
-                            <a href="#home">Products</a>
-                            <a href="#home">About</a>
-                            <a href="#home">Features</a>
-                            <a href="#home">Contact</a>
-                        </div>
-                        <div>
-                            <h4>Resources Links</h4>
-                            <a href="#home">Download Whitepapper</a>
-                            <a href="#home">Smart Token</a>
-                            <a href="#home">Blockchain Explore</a>
-                            <a href="#home">Crypto API</a>
-                            <a href="#home">Interest</a>
-                        </div>
-                        <div>
-                            <p>We accept following payment systems</p>
-                            <div>
-                                <img src={require("./images/visa.png")} alt="payment" />
-                                <img src={require("./images/mastercard.png")} alt="payment" />
-                                <img src={require("./images/bitcoin.png")} alt="payment" />
-                            </div>
+                            <img src={require("./images/visa.png")} alt="payment" />
+                            <img src={require("./images/mastercard.png")} alt="payment" />
+                            <img src={require("./images/bitcoin.png")} alt="payment" />
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row footer-logo">
                     <div className="col-lg-6">
-                        <p>©2021 CRAPPO. All rights reserved</p>
+                        <p>© 2021 CRAPPO. All rights reserved</p>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 footer-icons justify-content-lg-end">
                         <a href="#home"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M508.6 148.8c0-45-33.1-81.2-74-81.2C379.2 65 322.7 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.6-.1 220.2 0 255.8c-.1 35.6 1 71.2 3.4 106.9 0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8 60.8.2 120.3-1 178.6-3.8 40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107 .2-35.6-.9-71.2-3.3-106.9zM207 353.9V157.4l145 98.2-145 98.3z"></path></svg></a>
                         <a href="#home"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M260.062 32C138.605 32 40.134 129.701 40.134 250.232c0 41.23 11.532 79.79 31.559 112.687L32 480l121.764-38.682c31.508 17.285 67.745 27.146 106.298 27.146C381.535 468.464 480 370.749 480 250.232 480 129.701 381.535 32 260.062 32zm109.362 301.11c-5.174 12.827-28.574 24.533-38.899 25.072-10.314.547-10.608 7.994-66.84-16.434-56.225-24.434-90.052-83.844-92.719-87.67-2.669-3.812-21.78-31.047-20.749-58.455 1.038-27.413 16.047-40.346 21.404-45.725 5.351-5.387 11.486-6.352 15.232-6.413 4.428-.072 7.296-.132 10.573-.011 3.274.124 8.192-.685 12.45 10.639 4.256 11.323 14.443 39.153 15.746 41.989 1.302 2.839 2.108 6.126.102 9.771-2.012 3.653-3.042 5.935-5.961 9.083-2.935 3.148-6.174 7.042-8.792 9.449-2.92 2.665-5.97 5.572-2.9 11.269 3.068 5.693 13.653 24.356 29.779 39.736 20.725 19.771 38.598 26.329 44.098 29.317 5.515 3.004 8.806 2.67 12.226-.929 3.404-3.599 14.639-15.746 18.596-21.169 3.955-5.438 7.661-4.373 12.742-2.329 5.078 2.052 32.157 16.556 37.673 19.551 5.51 2.989 9.193 4.529 10.51 6.9 1.317 2.38.901 13.531-4.271 26.359z"></path></svg></a>
                         <a href="#home"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M336 96c21.2 0 41.3 8.4 56.5 23.5S416 154.8 416 176v160c0 21.2-8.4 41.3-23.5 56.5S357.2 416 336 416H176c-21.2 0-41.3-8.4-56.5-23.5S96 357.2 96 336V176c0-21.2 8.4-41.3 23.5-56.5S154.8 96 176 96h160m0-32H176c-61.6 0-112 50.4-112 112v160c0 61.6 50.4 112 112 112h160c61.6 0 112-50.4 112-112V176c0-61.6-50.4-112-112-112z"></path><path d="M360 176c-13.3 0-24-10.7-24-24s10.7-24 24-24c13.2 0 24 10.7 24 24s-10.8 24-24 24zM256 192c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64m0-32c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96z"></path></svg></a>

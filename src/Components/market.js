@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './styles/main.scss';
+import './styles/market.scss';
 
 function Market() {
     return (
         <div>
-            <section className="container">
+            <section className="container market">
                 <div>
                     <h2>Market Sentiments, Portfolio, And Run The Infrastructure Of Your Choice</h2>
                 </div>

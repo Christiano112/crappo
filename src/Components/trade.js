@@ -6,10 +6,10 @@ function Trade() {
         <div>
             <section className="container-fluid trade w-100">
                 <div className="row">
-                    <div className="col">
+                    <div className="col trade-head">
                         <h4>Trade Securely And Market The High Growth Cryptocurrencies.</h4>
                     </div>
-                    <div className="row">
+                    <div className="row trade-content text-center">
                         <div className="col">
                             <img src={require("./images/bitcon.png")} alt="bitcoin" />
                             <h2>Bitcoin <span>BTC</span></h2>

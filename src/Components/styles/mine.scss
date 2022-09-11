@@ -1,0 +1,53 @@
+.mine {
+    background: #3671E9;
+    border-radius: 2rem;
+    padding: 3rem 2rem 4rem 2rem;
+    margin: 5rem auto;
+    width: 80%;
+    color: #fff;
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            font-size: 1.7rem;
+        }
+
+        p {
+            font-size: .8rem;
+            margin-top: 1rem;
+        }
+
+        form {
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                padding: .5rem 1rem;
+                border-radius: 2rem;
+                background: rgb(255, 255, 255);
+                font-size: 1rem;
+                border: none;
+            }
+
+            input {
+                border: none;
+                border-bottom: 1px solid #E0E0E0;
+                width: 50%;
+                outline: none;
+                user-select: none;
+                padding-bottom: .3rem;
+                background: #3671E9;
+
+                &::placeholder {
+                    color: #fff;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
