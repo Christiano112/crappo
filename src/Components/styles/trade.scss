@@ -61,3 +61,24 @@
         }
     }
 }
+
+
+/* MEDIA QUERIES */
+@media (max-width: 992px) {
+    .trade {
+        padding-bottom: 5rem;
+
+        .row {
+
+            .trade-content {
+                flex-direction: column;
+
+                .col {
+                    max-width: 30rem;
+                    padding: 2rem;
+                    max-height: 30rem;
+                }
+            }
+        }
+    }
+}

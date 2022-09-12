@@ -21,8 +21,8 @@ function Market() {
                         <img src={require("./images/feature-1-img.png")} alt="feature img" className="img-fluid"  />
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
+                <div className="row market-stat">
+                    <div className="col-lg-6 market-stat-image">
                         <img src={require("./images/feature-2-img.png")} alt="feature img" className="img-fluid"  />
                     </div>
                     <div className="col-lg-6">

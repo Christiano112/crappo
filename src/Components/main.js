@@ -24,7 +24,7 @@ const Main = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-lg-6 image">
+                        <div className="col-lg-6 image text-center">
                             <img src={require("./images/hero-img.png")} alt="hero" className="img-fluid" />
                         </div>
                     </div>

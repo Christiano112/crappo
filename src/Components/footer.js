@@ -37,7 +37,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="row footer-logo">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 text-center text-lg-start">
                         <p>© 2021 CRAPPO. All rights reserved</p>
                     </div>
                     <div className="col-lg-6 footer-icons justify-content-lg-end">
