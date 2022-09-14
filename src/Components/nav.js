@@ -5,9 +5,6 @@ import './styles/nav.scss';
 
 
 function Nav() {
-
-    
-
     const hideNav = () => {
         document.getElementById("navbarNav").style.display = "none";
         document.getElementById("showSVG").style.display = "block";
