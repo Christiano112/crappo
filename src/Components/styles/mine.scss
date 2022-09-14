@@ -5,12 +5,15 @@
     margin: 5rem auto;
     width: 80%;
     color: #fff;
+    animation-name: expand;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
 
     .row {
         display: flex;
         align-items: center;
         justify-content: center;
-
+        
         h3 {
             font-size: 1.7rem;
         }
@@ -51,6 +54,26 @@
         }
     }
 }
+
+/* ANIMATIONS */
+@keyframes expand {
+    0% {
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+    }
+
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+}
+
 
 
 /* MEDIA QUERIES */
