@@ -40,9 +40,12 @@
         }
 
         .col-lg-6 {
-            animation-name: expand;
-            animation-duration: 4s;
-            animation-timing-function: ease-in-out;
+
+            img {
+                animation-name: expand;
+                animation-duration: 4s;
+                animation-timing-function: ease-in-out;
+            }
         }
     }
 }
