@@ -58,18 +58,15 @@ main {
                     margin-top: 2rem;
                     font-weight: 600;
                     width: 80%;
-                    animation-name: font;
-                    animation-duration: 3s;
-                    animation-timing-function: ease-out;
+
+
                 }
 
                 p {
                     color: rgb(209, 213, 219);
                     font-size: .8rem;
                     line-height: 1rem;
-                    animation-name: font;
-                    animation-duration: 3s;
-                    animation-timing-function: ease-out;
+
                 }
 
                 .try-free {
@@ -117,15 +114,8 @@ main {
     }
 }
 
-@keyframes font {
-    0% {
-        font-size: 20%;
-    }
 
-    100% {
-        font-size: 100%;
-    }
-}
+
 
 @keyframes button {
     0% {
