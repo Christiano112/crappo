@@ -24,7 +24,7 @@ const Main = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-lg-6 image text-center">
+                        <div className="col-lg-6 image text-center" data-aos="fade-up" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000" data-aos-anchor-placement="top-center">
                             <img src={require("./images/hero-img.png")} alt="hero" className="img-fluid" />
                         </div>
                     </div>

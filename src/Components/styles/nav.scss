@@ -3,22 +3,10 @@ nav {
     .container {
         padding-top: 1rem;
 
-        #hideSVG {
-            display: none;
-        }
-
         .navbar-toggler {
             color: rgba(255,255,255,0);
             border-color: inherit;
         }
-
-        #navbarNav {
-            transition: all 2s linear .1s;
-            -webkit-transition: all 2s linear .1s;
-            -moz-transition: all 2s linear .1s;
-            -ms-transition: all 2s linear .1s;
-            -o-transition: all 2s linear .1s;
-}
 
         ul {
             display: flex;
@@ -96,10 +84,4 @@ nav {
 //             opacity: 0;
 //         }
 //     }
-
-//     // section, main, footer {
-//     //     display: none;
-//     //     visibility: hidden;
-//     //     opacity: 0;
-//     // }
 // }

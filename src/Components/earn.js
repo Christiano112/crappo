@@ -11,7 +11,7 @@ function Earn() {
                         <h3>How Much Can You Earn With Us</h3>
                         <p>Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
-                    <div className="col form-section">
+                    <div className="col form-section" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000">
                         <div>
                             <form action='#'>
                                 <input type="text" placeholder='Enter your hash rate' name="hash-rate" />
